@@ -5,4 +5,5 @@ awk '$1=="FrameConsumerLog::RemainFrames:" {print $2}' log2.out > ~/gitUpload/as
 awk '$1=="FrameConsumerLog::RemainFrames:" {print $2}' log3.out > ~/gitUpload/assn3/q33.out
 awk '$1=="FrameConsumerLog::RemainFrames:" {print $2}' log4.out > ~/gitUpload/assn3/q34.out
 awk '$1=="FrameConsumerLog::RemainFrames:" {print $2}' log5.out > ~/gitUpload/assn3/q35.out
+awk '$1=="FrameConsumerLog::RemainFrames:" {print $2}' log6.out > ~/gitUpload/assn3/q4.out
 
